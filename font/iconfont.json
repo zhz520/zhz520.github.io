@@ -1,0 +1,100 @@
+{
+  "id": "4677111",
+  "name": "响应式KK社区",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15838562",
+      "name": "arrow-up-bold",
+      "font_class": "arrow-up-bold",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "1017253",
+      "name": "iOS",
+      "font_class": "ios",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "2325971",
+      "name": "安卓",
+      "font_class": "anzhuo",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "12586802",
+      "name": "iOS",
+      "font_class": "iOS",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "443511",
+      "name": "wx",
+      "font_class": "552cd5c76f532",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "1177745",
+      "name": "邮件",
+      "font_class": "youjian",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "4936984",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e882",
+      "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "34452762",
+      "name": "business-icon-buyers-club",
+      "font_class": "business-icon-buyers-club",
+      "unicode": "e822",
+      "unicode_decimal": 59426
+    },
+    {
+      "icon_id": "34452792",
+      "name": "catalog-fill",
+      "font_class": "catalog-fill",
+      "unicode": "e826",
+      "unicode_decimal": 59430
+    },
+    {
+      "icon_id": "34452808",
+      "name": "customer-bussinessman",
+      "font_class": "customer-bussinessman",
+      "unicode": "e827",
+      "unicode_decimal": 59431
+    },
+    {
+      "icon_id": "34452928",
+      "name": "order-manage",
+      "font_class": "order-manage",
+      "unicode": "e833",
+      "unicode_decimal": 59443
+    },
+    {
+      "icon_id": "34452933",
+      "name": "product-checked-fill",
+      "font_class": "product-checked-fill",
+      "unicode": "e834",
+      "unicode_decimal": 59444
+    },
+    {
+      "icon_id": "34452987",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e839",
+      "unicode_decimal": 59449
+    }
+  ]
+}
