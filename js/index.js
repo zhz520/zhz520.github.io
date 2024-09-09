@@ -148,4 +148,5 @@ function debounce(func, wait) {
 			document.querySelector('[data-name="download"]').classList.add('active')
 		}
 	}, 300))
+	document.querySelector('.kk-year').innerHTML = new Date().getFullYear()
 })();
