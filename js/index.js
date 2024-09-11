@@ -111,7 +111,44 @@ function debounce(func, wait) {
 	}, 300))
 })();
 
+(function() {
+	const interface_swiper = new Swiper(".interface-swiper", {
+		slidesPerView: 3,
+		spaceBetween: 30,
+		freeMode: true,
+		loop: true,
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+	});
+	// 监听点击事件
+	interface_swiper.el.onclick = function(e) {
+		// 如果点击的是图片
+		if (e.target.parentNode.classList.contains(
+				'swiper-slide')) {
+			// 获取点击的slide的图片地址
+			const imgSrc = e.target.src;
 
+			// 显示大图
+			const kk_modal = document.querySelector('#kk-modal');
+			const img = document.querySelector('#enlarged-image');
+
+			img.src = imgSrc;
+			kk_modal.style.display = "block";
+
+
+			// 关闭按的事件监听
+			document.addEventListener('click', (e) => {
+				if (!e.target.parentNode.classList.contains(
+						'swiper-slide') && e.target != img) {
+					kk_modal.style.display = "none";
+				}
+			})
+		}
+	};
+
+})();
 
 
 (function() {

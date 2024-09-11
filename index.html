@@ -201,6 +201,10 @@
 					<div class="swiper-pagination"></div>
 				</div>
 				<!-- Swiper-end -->
+				<!-- 大图容器 -->
+				<div id="kk-modal" class="kk-modal">
+					<img src="./image/1.png" class="modal-content" id="enlarged-image">
+				</div>
 			</div>
 		</section>
 		<!-- interface-end -->
@@ -417,16 +421,6 @@
 			const swiper = new Swiper(".kk-swiper", {
 				grabCursor: true,
 				loop: true
-			});
-			const interface_swiper = new Swiper(".interface-swiper", {
-				slidesPerView: 3,
-				spaceBetween: 30,
-				freeMode: true,
-				loop: true,
-				pagination: {
-					el: ".swiper-pagination",
-					clickable: true,
-				},
 			});
 		</script>
 	</body>
