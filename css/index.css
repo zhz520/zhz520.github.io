@@ -293,7 +293,7 @@ body {
 	height: 200px;
 	width: 100%;
 	background: url('https://api.suyanw.cn/api/jk.php') no-repeat;
-	background-position: center bottom;
+	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
 	margin-bottom: 6.25vmax;
