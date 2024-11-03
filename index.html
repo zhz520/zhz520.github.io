@@ -7,7 +7,7 @@
 		<meta name="robots" content="all" />
 		<meta name="keywords" content="XX社区官网,XX社区APP,XX社区,KK,XX社区APP官网下载地址" />
 		<meta name="description" content="XX社区是国内的源码分享,技术交流社区，这里有热情的互动氛围，最有创意和技术的UP主，在XX社区和全球玩家共享乐趣。" />
-		<meta name="author" content="沧烁,2183649927@qq.com" />
+		<meta name="author" content="沧烁,14329140@qq.com" />
 		<meta name="copyright" content="沧烁" />
 		<meta property="og:title" content="XX社区" />
 		<meta property="og:type" content="website" />
@@ -17,6 +17,7 @@
 		<meta property="og:site_name" content="XX社区" />
 		<meta property="og:locale" content="zh_CN" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="dns-prefetch" href="//api.suyanw.cn" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/swiper-bundle.min.css" />
 		<link rel="stylesheet" href="font/iconfont.css" />
@@ -138,7 +139,7 @@
 		<!-- develop-start -->
 		<section class="develop" id="develop">
 			<div class="img">
-				<!-- 你看你码呢 -->
+				<!-- 你看码 -->
 				<h5>Hitokoto</h5>
 				<p class="hitokoto"></p>
 			</div>
@@ -232,7 +233,7 @@
 							<p>解锁超亮黄色昵称</p>
 							<p>VIP尊贵身份标识</p>
 							<p>会员专属昵称</p>
-							<button class="btn-animate__shiny">即刻购买</button>
+							<a class="btn-animate__shiny btn-vipkk" href="">即刻购买</a>
 						</span>
 					</div>
 					<div class="col-lg-3 col-md-6 kk-vip-2"><span>
@@ -242,7 +243,7 @@
 							<p>解锁超亮黄色昵称</p>
 							<p>VIP尊贵身份标识</p>
 							<p>会员专属昵称</p>
-							<button class="btn-animate__shiny">即刻购买</button>
+							<a class="btn-animate__shiny btn-vipkk" href="">即刻购买</a>
 						</span></div>
 					<div class="col-lg-3 col-md-6 kk-vip-3"><span>
 							<em class="iconfont icon-business-icon-buyers-club"></em>
@@ -251,7 +252,7 @@
 							<p>解锁超亮黄色昵称</p>
 							<p>VIP尊贵身份标识</p>
 							<p>会员专属昵称</p>
-							<button class="btn-animate__shiny">即刻购买</button>
+							<a class="btn-animate__shiny btn-vipkk" href="">即刻购买</a>
 						</span></div>
 					<div class="col-lg-3 col-md-6 kk-vip-4"><span>
 							<em class="iconfont icon-business-icon-buyers-club"></em>
@@ -260,7 +261,7 @@
 							<p>解锁超亮红色昵称</p>
 							<p>VIP尊贵身份标识</p>
 							<p>会员专属昵称</p>
-							<button class="btn-animate__shiny">即刻购买</button>
+							<a class="btn-animate__shiny btn-vipkk" href="">即刻购买</a>
 						</span></div>
 				</div>
 			</div>
@@ -332,8 +333,6 @@
 
 		<!-- download-start -->
 		<aside class="download" id="download">
-			<!-- 算了不写了 -->
-			<!-- 算了还是写吧 -->
 			<div class="kk-download  container">
 				<h2>快来加入我们吧~</h2>
 				<div>
@@ -429,7 +428,11 @@
 		<script>
 			const swiper = new Swiper(".kk-swiper", {
 				grabCursor: true,
-				loop: true
+				loop: true,
+				autoplay: {
+					delay: 2000,
+					disableOnInteraction: false,
+				}
 			});
 		</script>
 	</body>

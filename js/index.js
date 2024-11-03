@@ -14,8 +14,8 @@ function debounce(func, wait) {
 	// const axios = require("./axios")
 	// $('.collapse').collapse()
 	const nav = document.querySelectorAll('.nav-item')
-	nav.forEach((item) => {
-		item.addEventListener('click', (e) => {
+	nav.forEach(item => {
+		item.addEventListener('click', e => {
 			document.querySelector('.active').classList.remove('active')
 			e.target.classList.add('active')
 		})
@@ -32,9 +32,8 @@ function debounce(func, wait) {
 	Hitokoto()
 
 
-	document.querySelectorAll('.kk-collapse ul li').forEach((item) => {
+	document.querySelectorAll('.kk-collapse ul li').forEach(item => {
 		item.addEventListener('click', function(e) {
-			// 忘了咋写了,就这样吧(其实就是不会)
 			// console.log(e.target.tagName);
 			if (e.target.tagName === "I") {
 				e.target.parentNode.nextElementSibling.classList.toggle(
@@ -79,7 +78,6 @@ function debounce(func, wait) {
 				e.target.parentNode.nextElementSibling.classList.toggle('kk-show')
 				e.target.classList.toggle('icon-down-show')
 			}
-			// 我这样写是不是很傻呀,有没有人告诉我呜呜呜
 		})
 	})
 
@@ -138,8 +136,7 @@ function debounce(func, wait) {
 			kk_modal.style.display = "block";
 
 
-			// 关闭按的事件监听
-			document.addEventListener('click', (e) => {
+			document.addEventListener('click', e => {
 				if (!e.target.parentNode.classList.contains(
 						'swiper-slide') && e.target != img) {
 					kk_modal.style.display = "none";
